@@ -1,0 +1,148 @@
+.form-block {
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.form-block__main-text {
+    font-size: 24px;
+    color: #455a64;
+    background-color: #d7ebff;
+    border-radius: 5px 5px 0 0;
+    height: 50px;
+    line-height: 45px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.headline {
+    width: 120px;
+    color: gray;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.frequency {
+    margin-top: 15px;
+    display: flex;
+}
+
+.frequency-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.frequency-container__radio {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.frequency-container__switch {
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.frequency-container__select-day {
+    outline: none;
+    width: 125px;
+    font-size: 16px;
+    font-family: inherit;
+    margin-left: 10px;
+}
+
+.frequency-container__text {
+    line-height: 27px;
+}
+
+.frequency-container__select-days {
+    outline: none;
+    width: 45px;
+    font-size: 16px;
+    font-family: inherit;
+    margin-left: 30px;
+}
+
+.time {
+    margin-top: 30px;
+    display: flex;
+}
+
+.time__input {
+    outline: none;
+    width: 42px;
+    padding: 0 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.time__input::-webkit-clear-button,
+.time__input::-webkit-outer-spin-button,
+.time__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none; 
+}
+
+.time__text {
+    margin-left: 20px;
+    color: gray;
+    font-style: oblique;
+}
+
+.quantity {
+    margin-top: 30px;
+    display: flex;
+}
+
+.quantity__switch {
+    margin-top: 9px;
+    margin-right: 5px; 
+}
+
+.quantity__text {
+    line-height: 27px;
+    margin-right: 20px; 
+}
+
+.quantity-count {
+    outline: none;
+    width: 20px;
+    padding: 0 5px;
+    font-size: 16px;
+    font-family: inherit;
+    margin-right: 5px; 
+}
+
+.quantity__text-date {
+    line-height: 27px;
+    margin-right: 5px; 
+}
+
+.quantity-date {
+    outline: none;
+    width: 85px;
+    padding: 0 5px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.quantity-date::-webkit-clear-button,
+.quantity-date::-webkit-outer-spin-button,
+.quantity-date::-webkit-inner-spin-button,
+.quantity-date::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none; 
+}
+
+.periodicity {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.periodicity-text {
+    text-align: left;
+}

@@ -1,0 +1,16 @@
+.home-page {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.main-text {
+    font-size: 30px;
+    color: #455a64;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}

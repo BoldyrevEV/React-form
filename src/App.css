@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+  text-align: center;
+  background: #e6ebf0;
+  height: 100vh;
+}

@@ -1,0 +1,38 @@
+.modalwindow__btn {
+    background-color: transparent;
+    width: 148px;
+    height: 40px;
+    line-height: 40px;
+    color: #455a64;
+    font-size: 16px;
+    border-left: 1px solid #c60c30;
+    border-right: 1px solid #4362c4;
+    background-position: 0 0,0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-image: linear-gradient(to right,#c60c30,#855eae,#4362c4),linear-gradient(to right,#c60c30,#855eae,#4362c4);
+    border-top: 0;
+    border-bottom: 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    border-radius: 5px;   
+}
+
+.modalwindow__btn:before {
+    background: linear-gradient(to right,#c60c30,#855eae,#4362c4);
+    content: '';
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform .4s ease;
+    right: 0;
+    top: 0;
+}
+
+.modalwindow__btn:hover:before {
+    transition: all 0.4s ease-in-out;
+    transform: translateY(-100%);   
+}
